@@ -45,5 +45,48 @@
     <li>Juice</li>
     <li>Mango</li>
 </ol>
+
+<p>HTML forms are fun to work with, let's see some examples.</p>
+<form action="action_page.c#/">
+    <label for="Fname">Enter First Name</label>
+    <input type="text" name="Fname" id="Fname">
+    <label for="Lname">Enter Last Name</label>
+    <input type="text" name="Lname" id="Lname">
+
+</form>
+<p><p>Let's see the <q>select element</q> at work</p></p>
+<form action="action_page.c#/">
+   <label for="assetClass">What is your favorite asset class?</label>
+   <select name="favAssetClass" id="favAssetClass">Select your favorite asset class
+    <option value="Majors">Majors</option>
+    <option value="Us stocks">Us stocks</option>
+    <option value="JPY's">JPY's</option>
+    <option value="Gold">Gold</option>
+   </select>
+   <p>Tell us What influenced your choice above:</p>
+   <textarea name="choice" id="choice"></textarea><br>
+<button type="button" onclick="alert('You made the best choice')">Get recommendation!</button>
+</form>
+<form action="action_page.c#/">
+    <fieldset>
+        <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Victor"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Benjamin"><br><br>
+    <input type="submit" value="Submit">
+    </fieldset>
+</form>
+<form action="">
+    <label for="pwd">Enetr a Password</label>
+    <input type="password" name="pwd" id="pwd">
+</form><br>
+<form action="">
+    <label for="exp">Years of expirience:</label>
+    <input type="number" name="exp" id="exp">
+    <label for="avg">Average monthly returns(%):</label>
+    <input type="number" name="avg" id="avg">
+    <input type="submit" name="submit" id="submit">
+</form>
 </body>
 </html>
