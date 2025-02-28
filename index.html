@@ -78,6 +78,8 @@
     </fieldset>
 </form>
 <form action="">
+    <label for="userName">Enter Your Name</label>
+    <input type="text" name="userName" id="userName">
     <label for="pwd">Enetr a Password</label>
     <input type="password" name="pwd" id="pwd">
 </form><br>
@@ -85,8 +87,43 @@
     <label for="exp">Years of expirience:</label>
     <input type="number" name="exp" id="exp">
     <label for="avg">Average monthly returns(%):</label>
-    <input type="number" name="avg" id="avg">
+    <input type="number" name="avg" id="avg"><br>
+    <label for="favcolor">Favorite Chat Color</label>
+    <input type="color" name="favecolor" id="favcolor"><br>
+    <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br>
     <input type="submit" name="submit" id="submit">
+    <input type="reset" value="Reset">
+    
+</form>
+<form action="">
+    <h2>Even More Form Input Types:Radio and Checkboxes</h2>
+    <p>Radio-allows a user to select just one option</p>
+    <input type="radio" name="favFriend" id="Nath" value="Nath">
+    <label for="Nath">Arome</label><br>
+    <input type="radio" name="favFriend" id="Luq" value="Luq">
+    <label for="Luq">Luqman</label><br>
+    <input type="radio" name="favFriend" id="Zick" value="Zick">
+    <label for="Zick">Isaac</label>
+</form>
+<form action="">
+    <p>Checkboxes-allow users to selecr 0 to more than one option</p>
+    <input type="checkbox" name="favcar" id="Audi" value="Audi">
+    <label for="Audi">Audi</label><br>
+    <input type="checkbox" name="favcar" id="Bm" value="Bm">
+    <label for="Bm">BMW</label><br>
+    <input type="checkbox" name="favcar" id="lambo" value="lambo">
+    <label for="lambo">Lambourghini</label>
+</form>
+<form action="">
+    <h2>Now, let's work with dates</h2>
+    <label for="birthday">What's your date of birth?</label>
+    <input type="date" name="birthday" id="birthday">
+</form>
+<form action="">
+    <p>It can even be better</p>
+    <label for="graduationDate">When was your graduation datte?</label>
+    <input type="datetime-local" name="graduationDate" id="graduationDate">
 </form>
 </body>
 </html>
