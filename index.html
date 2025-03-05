@@ -125,5 +125,79 @@
     <label for="graduationDate">When was your graduation datte?</label>
     <input type="datetime-local" name="graduationDate" id="graduationDate">
 </form>
+
+<h3>HTML attributes</h3>
+<p>All attributes in html may or may not require quotations. See examples below.</p>
+<p>Without spaces:</p>
+<a href=http://www.w3schools.com>This works Without quotations because it has no spaces</a>
+<p>With spaces</p>
+<p title=Example of attributes work in html>This won't work because the text contains spaces</p>
+<p>Comments in html</p>
+<!--This is a comment-->
+<p>You cannot see the line above cuz itz a comment, and html Comments are not displayed by the browser.</p>
+<!--Comments are not displayed bt the browsers-->
+<h3>Inline CSS in html</h3>
+<h1 style="color:blue;">A Blue Heading</h1>
+<p style="color:red;">A red paragraph.</p>
+<p>Note: We also have internal and external CSC format</p>
+<h4>We can also add styling using css ID</h4>
+<p>This is a normal paragraph</p>
+<p>This is yet anothe paragrapg</p>
+<style>
+    #p1 {
+        color: blue;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: oblique;
+    }
+</style>
+<p id="p1">But i am different</p>
+<p>CSS uses dot to define a class while the # is used to define an ID</p>
+<style>
+    .c {
+        color: aqua;
+        background-color: darkolivegreen;
+    }
+</style>
+<p>This is a normal paragraph</p>
+<p class="c">But i am made special with a css class</p>
+<h4>Let's modify our link</h4>
+<p>Interact with link below. The link should open in a new window.</p>
+<style>
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: none;
+    }
+</style>
+<a href="https://www.w3schools.com/" target="_blank">Visit w3schools</a>
+<p>This is an email link: <a href="mailto:geovick009@gmail.com?subject=Hello%20Victor" target="_top">Message Victor</a></p>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<table>
+    <tr>
+        <th>Victor</th>
+        <th>Precious</th>
+        <th>MaryAnn</th>
+    </tr>
+    <tr>
+        <td>P.A</td>
+        <td>P.A</td>
+        <td>P.A</td>
+    </tr>
+</table>
 </body>
 </html>
